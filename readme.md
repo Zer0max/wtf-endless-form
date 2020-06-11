@@ -1,14 +1,8 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+# WTF - Example of using local strage
 
-# WTF Webpack Starter Kit 
+Example of using local storage to save and load input in a webpack solution
 
-Simple toolkit for your static websites development.
-
-## How to use it?
-
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
-
-## Available scripts
+## Available scripts to use this code 
 
 `npm run start` - runs development mode
 

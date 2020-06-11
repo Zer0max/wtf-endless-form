@@ -3,15 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WTF: Webpack starter kit</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <title>WTF: Load and save form from local storage</title>
   </head>
   <body>
-    <div class="hello">
-      <img class="hello__logo" src="../assets/img/logo.svg" alt="WTF " />
-      <span class="hello__circles"></span>
-    </div>
+    <main>
+      <form class="form-editor">
+        <h1 class="form-editor__title">
+          My editor
+        </h1>
+        <textarea class="form-editor__input form-editor__input-js"></textarea>
+        <div class="form-editor__button-bar">
+          <input type="button" class="form-editor__button form-editor__load-button-js" value="Load">
+          <input type="button" class="form-editor__button form-editor__button--save form-editor__save-button-js" value="Save">
+        </div>
+      </form>
+    </main>
   </body>
 </html>
